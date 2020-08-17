@@ -1,0 +1,9 @@
+learn java:
+1. build the java environment
+1.1 java version is jdk 14.0.2; OS is win10 64bit
+1.2 system-->high system config-->environment:
+   In system variate, Create new variable name "JAVA_HOME", it's value is jdk' installed path example " c:\program files\Java\jdk-14.0.2";
+   In system variate, choose variable name "Path", add new value "%JAVA_HOME%\bin";
+   shortcut key "win+r" open CMD;
+   input " Java -version" enter, if display jdk version, installation is complete.
+
